@@ -22,5 +22,5 @@ npm run client  # React Client Only :3000
 ```
 "# contact-keeper" 
 
-##APP OVERVIEW
+## APP OVERVIEW
 ![AppOverview](contact-keeper-img.png "Dashboard")
