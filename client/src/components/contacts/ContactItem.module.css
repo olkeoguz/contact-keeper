@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.Card {
+  padding: 1rem;
+  border: #ccc 1px dotted;
+  margin: 0.7rem 0;
+}
+
+.bgLight {
+  background: #f4f4f4;
+  color: #333;
+}
+
+h3 {
+  color: #003699;
+  text-align: left;
+}
+
+span {
+  float: right;
+}
+
+.Badge {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.7rem;
+  text-align: center;
+  margin: 0.3rem;
+  background: var(--light-color);
+  color: #333;
+  border-radius: 5px;
+}
+
+.badgeSuccess {
+  background: var(--success-color);
+  color: #fff;
+}
+
+.badgePrimary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.list {
+  margin: 0.5rem 0;
+}
+
+.list li {
+  padding-bottom: 0.3rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--light-color);
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+}
+
+.btnDark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btnDanger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.btnSM {
+  font-size: 0.8rem;
+  padding: 0.3rem 1rem;
+  margin-right: 0.2rem;
+}
